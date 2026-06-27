@@ -1,0 +1,23 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Dados
+data/
+
+# Cache do Python
+__pycache__/
+**/__pycache__/
+
+# Arquivos compilados do Python
+*.py[cod]
+*$py.class
+
+# Arquivos de ambiente
+.env
+
+# Configurações do VS Code (opcional)
+.vscode/
+
+# Configurações do PyCharm (opcional)
+.idea/
