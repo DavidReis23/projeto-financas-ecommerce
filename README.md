@@ -134,17 +134,17 @@ Os valores encontrados foram:
 
 O limite superior foi calculado como:
 
-\[
+$$
 LimiteSuperior = Q3 + 1,5 \times IQR
-\]
+$$
 
-\[
+$$
 LimiteSuperior = 171,09 + 1,5 \times 114,31
-\]
+$$
 
-\[
+$$
 LimiteSuperior = 342,57
-\]
+$$
 
 O limite inferior encontrado foi de aproximadamente **-R$ 114,69**.
 
@@ -194,9 +194,9 @@ Utilizando os percentis 2,5% e 97,5%:
 
 O intervalo tradicional foi calculado por:
 
-\[
+$$
 IC\_{95\%} = \bar{X} \pm 1,96 \frac{s}{\sqrt{N}}
-\]
+$$
 
 Resultado:
 
@@ -241,21 +241,21 @@ A pergunta de pesquisa é:
 
 Hipótese Nula:
 
-\[
+$$
 H*0: \mu*{cartão} = \mu\_{boleto}
-\]
+$$
 
 Hipótese Alternativa:
 
-\[
+$$
 H*1: \mu*{cartão} \neq \mu\_{boleto}
-\]
+$$
 
 Foi utilizado:
 
-\[
+$$
 \alpha = 0,05
-\]
+$$
 
 ## 8.3 Resultados Observados
 
@@ -271,9 +271,9 @@ Foi utilizado:
 
 A diferença observada foi:
 
-\[
+$$
 115,07 - 106,63 = R\$ 8,45
-\]
+$$
 
 Portanto, na amostra observada, pagamentos realizados com cartão apresentaram ticket médio aproximadamente **R$ 8,45 superior** ao boleto.
 
@@ -295,9 +295,9 @@ Como o teste utiliza somente 2.000 permutações, esse valor não deve ser inter
 
 Como:
 
-\[
+$$
 p < 0,05
-\]
+$$
 
 **rejeitamos H0.**
 
@@ -326,29 +326,29 @@ O módulo `src/models/regression.py` investiga a relação entre satisfação, t
 
 A variável resposta utilizada foi:
 
-\[
+$$
 Y = review_score
-\]
+$$
 
 As variáveis preditoras foram:
 
-\[
+$$
 X_1 = tempo_entrega_dias
-\]
+$$
 
-\[
+$$
 X_2 = payment_value
-\]
+$$
 
 O modelo estimado foi:
 
-\[
+$$
 review_score =
 4,719898
 
 - 0,044242 \times tempo_entrega_dias
 - 0,000185 \times payment_value
-  \]
+$$
 
 ## 9.1 Coeficientes
 
@@ -366,9 +366,9 @@ Mantendo `payment_value` constante, cada dia adicional no tempo de entrega está
 
 Por exemplo, dez dias adicionais correspondem no modelo a aproximadamente:
 
-\[
+$$
 10 \times -0,044242 = -0,44242
-\]
+$$
 
 ou cerca de **0,44 ponto a menos na avaliação**, mantendo o restante constante.
 
@@ -593,9 +593,9 @@ Computacionalmente, o PCA pode ser fundamentado por **Decomposição em Valores 
 
 De forma simplificada, uma matriz de dados centralizada pode ser decomposta como:
 
-\[
+$$
 X = U \Sigma V^T
-\]
+$$
 
 onde:
 
@@ -616,9 +616,9 @@ Os resultados encontrados foram:
 
 Variância acumulada:
 
-\[
+$$
 36,09\% + 31,15\% = 67,24\%
-\]
+$$
 
 Portanto, os dois primeiros componentes preservam aproximadamente **67,24% da variância observada nas quatro variáveis utilizadas**.
 
@@ -632,9 +632,9 @@ Esse valor não representa acurácia. Ele representa a parcela da variabilidade 
 
 Foram testados valores de:
 
-\[
+$$
 k = 1,2,3,\ldots,8
-\]
+$$
 
 As inércias encontradas foram:
 
