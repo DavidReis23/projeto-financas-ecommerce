@@ -1,6 +1,6 @@
 from src.extract.extractor import ler_e_parear_dados
 from src.transform.cleaner import tratar_dados_estatistico
-from src.transform.visualize import gerar_grafico_integridade
+from src.visualize import gerar_grafico_integridade
 
 from src.inference.bootstrap import executar_bootstrap
 from src.inference.ab_testing import executar_teste_ab

@@ -865,22 +865,23 @@ projeto-financas-ecommerce/
 │   ├── olist_order_reviews_dataset.csv
 │   └── olist_orders_dataset.csv
 │
-├── src/
-│   ├── extract/
-│   │   └── extractor.py
-│   │
-│   ├── transform/
-│   │   ├── cleaner.py
-│   │   └── visualize.py
-│   │
-│   ├── inference/
-│   │   ├── bootstrap.py
-│   │   └── ab_testing.py
-│   │
-│   └── models/
-│       ├── regression.py
-│       ├── machine_learning.py
-│       └── unsupervised.py
+src/
+├── extract/
+│   └── extractor.py
+│
+├── transform/
+│   └── cleaner.py
+│
+├── inference/
+│   ├── bootstrap.py
+│   └── ab_testing.py
+│
+├── models/
+│   ├── regression.py
+│   ├── machine_learning.py
+│   └── unsupervised.py
+│
+└── visualize.py
 │
 ├── main.py
 ├── requirements.txt
