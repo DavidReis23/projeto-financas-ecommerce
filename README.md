@@ -242,13 +242,13 @@ A pergunta de pesquisa é:
 Hipótese Nula:
 
 $$
-H*0: \mu*{cartão} = \mu\_{boleto}
+H_0: \mu_{\text{cartão}} = \mu_{\text{boleto}}
 $$
 
 Hipótese Alternativa:
 
 $$
-H*1: \mu*{cartão} \neq \mu\_{boleto}
+H_1: \mu_{\text{cartão}} \neq \mu_{\text{boleto}}
 $$
 
 Foi utilizado:
